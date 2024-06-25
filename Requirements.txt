@@ -1,0 +1,36 @@
+To run this project, you will need the following dependencies:
+
+- Python 3.8 or higher
+- Jupyter Notebook
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- tensorflow or pytorch (depending on the model implementation)
+- opencv-python
+- Pillow
+
+
+Installation:
+
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/your-username/rice-plant-disease-detection.git
+2. cd rice-plant-disease-detection
+3. python -m venv venv
+source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+4. pip install -r requirements.txt
+5. jupyter notebook
+
+Usage:
+Open the Rice_plant_Disease_detection.ipynb notebook and run the cells sequentially to execute the disease detection analysis and model training.
+
+License:
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgements:
+The TensorFlow and PyTorch communities for providing powerful tools for deep learning.
+OpenCV and Pillow libraries for image processing.
+Contributors and maintainers of datasets used for plant disease detection research.
+
